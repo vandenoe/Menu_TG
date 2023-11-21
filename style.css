@@ -1,0 +1,54 @@
+@charset "urf-8";
+*{
+	margin: 0;
+	padding: 0%;
+	font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+
+.container{
+	height: 100vh;
+	width: 100vh;
+	background-image: url("images/background_outline_padding_6x9.svg");
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.logo img{
+	overflow: hidden;
+	width: 8vw;
+	margin: 7vw 22vw;
+}
+
+.header  h1{
+	font-size: 5vw;
+	font-weight: 100;
+	text-align: center;
+	
+}
+
+.header  p{
+	font-size: 3vw;
+	font-weight: 100;
+	text-align: center;
+}
+
+.header{
+	margin-left: 0%; 
+	margin-top: -16vw;
+}
+
+
+.category{
+	font-size: 3vw;
+	font-weight: 110;
+	text-align: center;
+	padding-top: 2vw;
+}
+
+.drink{
+	font-size: 2.05vw;
+	font-weight: 140;
+	text-align: center;
+	padding-top: 2vw;
+}
